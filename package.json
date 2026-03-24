@@ -1,0 +1,24 @@
+{
+  "name": "facetrack-ai",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Helper scripts for running the Flutter app.",
+  "dependencies": {
+    "facetrack-start": "file:tools/facetrack-start",
+    "qrcode-terminal": "^0.12.0"
+  },
+  "scripts": {
+    "expo": "expo start ./facetrack-expo --clear --lan",
+    "doctor": "c:\\src\\flutter\\bin\\flutter.bat doctor",
+    "get": "c:\\src\\flutter\\bin\\flutter.bat pub get",
+    "start": "c:\\src\\flutter\\bin\\flutter.bat run",
+    "start:qr": "node tools/start-with-qr.js",
+    "expo:start": "expo start ./facetrack-expo --clear --tunnel",
+    "expo:start:lan": "expo start ./facetrack-expo --clear --lan",
+    "expo:start:wifi": "node tools/start-expo-lan.js",
+    "test": "c:\\src\\flutter\\bin\\flutter.bat test"
+  },
+  "devDependencies": {
+    "expo": "~54.0.0"
+  }
+}
