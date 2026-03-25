@@ -1,5 +1,6 @@
 # Node (root package.json / Expo helpers)
 node_modules/
+.expo/
 
 # Miscellaneous
 *.class

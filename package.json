@@ -19,6 +19,9 @@
     "test": "c:\\src\\flutter\\bin\\flutter.bat test"
   },
   "devDependencies": {
-    "expo": "~54.0.0"
+    "@types/react": "~19.1.10",
+    "@types/react-native": "^0.72.8",
+    "expo": "~54.0.0",
+    "typescript": "~5.9.2"
   }
 }
